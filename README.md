@@ -2,6 +2,14 @@
 
 ## Installation
 
+With npm
+
 ```bash
 npm i react-native-otp-boxes
+```
+
+With yarn
+
+```bash
+yarn add react-native-otp-boxes
 ```
