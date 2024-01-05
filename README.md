@@ -3,5 +3,5 @@
 ## Installation
 
 ```bash
-$ npm i react-native-otp-boxes
+npm i react-native-otp-boxes
 ```
