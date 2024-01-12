@@ -17,3 +17,18 @@ With yarn
 ```bash
 yarn add react-native-otp-boxes
 ```
+
+#### How to use
+
+```javascript
+
+<OtpBoxes
+  numberOfDigits={6}
+  onTextChange={(text) => console.log(text)}
+  focusColor="#93C5FD"
+  focusStickBlinkingDuration={500}
+  onFilled={(text) => {
+  }}
+/>
+
+```
