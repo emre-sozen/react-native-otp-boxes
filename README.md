@@ -24,10 +24,12 @@ yarn add react-native-otp-boxes
 
 <OtpBoxes
   numberOfDigits={6}
-  onTextChange={(text) => console.log(text)}
   focusColor="#93C5FD"
-  focusStickBlinkingDuration={500}
+  onTextChange={(text) => {
+    // it workd when onTextChange
+ }}
   onFilled={(text) => {
+    // it works when onFilled
   }}
 />
 
