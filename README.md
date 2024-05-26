@@ -26,10 +26,10 @@ yarn add react-native-otp-boxes
   numberOfDigits={6}
   focusColor="#93C5FD"
   onTextChange={(text) => {
-    // it workd when onTextChange
+    // when onTextChange
  }}
   onFilled={(text) => {
-    // it works when onFilled
+    // when onFilled
   }}
 />
 
